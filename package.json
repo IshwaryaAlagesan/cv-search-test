@@ -1,0 +1,24 @@
+{
+  "name": "cv-library-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IshwaryaAlagesan/cv-library-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IshwaryaAlagesan/cv-library-search/issues"
+  },
+  "homepage": "https://github.com/IshwaryaAlagesan/cv-library-search#readme",
+  "dependencies": {
+    "codeceptjs": "2.6.3",
+    "puppeteer": "3.0.3"
+  }
+}

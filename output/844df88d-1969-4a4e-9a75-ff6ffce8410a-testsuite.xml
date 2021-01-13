@@ -1,0 +1,543 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610537961998' stop='1610537993538'>
+    <name>Search BDD</name>
+    <title>Search BDD</title>
+    <test-cases>
+        <test-case start='1610537962000' status='passed' stop='1610537970394'>
+            <name>I perform various types of search using BDD approach {"keywords":"Automation Tester","location":"RG1","salarymin":"20000","salarymax":"30000","jobtype":"Contract"}</name>
+            <title>I perform various types of search using BDD approach {"keywords":"Automation Tester","location":"RG1","salarymin":"20000","salarymax":"30000","jobtype":"Contract"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610537963626' status='passed' stop='1610537965843'>
+                    <name>Given I goto CV library url in the Browser </name>
+                    <title>Given I goto CV library url in the Browser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537963627' status='passed' stop='1610537965843'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537965843' status='passed' stop='1610537965977'>
+                    <name>When I Click More Search Option Link </name>
+                    <title>When I Click More Search Option Link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537965843' status='passed' stop='1610537965977'>
+                            <name>I click "//button[@id='toggle-hp-search']"</name>
+                            <title>I click "//button[@id='toggle-hp-search']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537965977' status='passed' stop='1610537966008'>
+                    <name>Then I see additional search options </name>
+                    <title>Then I see additional search options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537965978' status='passed' stop='1610537965987'>
+                            <name>I wait for text "Salary Min", 5</name>
+                            <title>I wait for text "Salary Min", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537965987' status='passed' stop='1610537965990'>
+                            <name>I see "Salary Max"</name>
+                            <title>I see "Salary Max"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537965991' status='passed' stop='1610537965994'>
+                            <name>I see "Salary Type"</name>
+                            <title>I see "Salary Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537965994' status='passed' stop='1610537966008'>
+                            <name>I see "Job Type"</name>
+                            <title>I see "Job Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537966008' status='passed' stop='1610537969307'>
+                    <name>When I Enter the search criteria below "Automation Tester", "RG1", "20000", "30000", "Contract" </name>
+                    <title>When I Enter the search criteria below "Automation Tester", "RG1", "20000", "30000", "Contract" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537966008' status='passed' stop='1610537966471'>
+                            <name>I fill field "#keywords", "Automation Tester"</name>
+                            <title>I fill field "#keywords", "Automation Tester"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537966471' status='passed' stop='1610537966644'>
+                            <name>I fill field "#location", "RG1"</name>
+                            <title>I fill field "#location", "RG1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537966645' status='passed' stop='1610537967644'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537967645' status='passed' stop='1610537967846'>
+                            <name>I fill field "#salarymin", "20000"</name>
+                            <title>I fill field "#salarymin", "20000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537967846' status='passed' stop='1610537968043'>
+                            <name>I fill field "#salarymax", "30000"</name>
+                            <title>I fill field "#salarymax", "30000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537968043' status='passed' stop='1610537969048'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537969048' status='passed' stop='1610537969169'>
+                            <name>I select option "#tempperm", "Contract"</name>
+                            <title>I select option "#tempperm", "Contract"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537969169' status='passed' stop='1610537969307'>
+                            <name>I click "#hp-search-btn"</name>
+                            <title>I click "#hp-search-btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537969307' status='passed' stop='1610537970394'>
+                    <name>Then I see the search results </name>
+                    <title>Then I see the search results </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537969307' status='passed' stop='1610537970394'>
+                            <name>I wait for text "Results Per Page:", 5</name>
+                            <title>I wait for text "Results Per Page:", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610537970483' status='passed' stop='1610537978396'>
+            <name>I perform various types of search using BDD approach {"keywords":"Teacher","location":"SW1","salarymin":"10000","salarymax":"40000","jobtype":"Part Time"}</name>
+            <title>I perform various types of search using BDD approach {"keywords":"Teacher","location":"SW1","salarymin":"10000","salarymax":"40000","jobtype":"Part Time"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610537971479' status='passed' stop='1610537972867'>
+                    <name>Given I goto CV library url in the Browser </name>
+                    <title>Given I goto CV library url in the Browser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537971479' status='passed' stop='1610537972867'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537972867' status='passed' stop='1610537973030'>
+                    <name>When I Click More Search Option Link </name>
+                    <title>When I Click More Search Option Link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537972867' status='passed' stop='1610537973030'>
+                            <name>I click "//button[@id='toggle-hp-search']"</name>
+                            <title>I click "//button[@id='toggle-hp-search']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537973030' status='passed' stop='1610537973092'>
+                    <name>Then I see additional search options </name>
+                    <title>Then I see additional search options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537973030' status='passed' stop='1610537973076'>
+                            <name>I wait for text "Salary Min", 5</name>
+                            <title>I wait for text "Salary Min", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537973076' status='passed' stop='1610537973088'>
+                            <name>I see "Salary Max"</name>
+                            <title>I see "Salary Max"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537973088' status='passed' stop='1610537973090'>
+                            <name>I see "Salary Type"</name>
+                            <title>I see "Salary Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537973090' status='passed' stop='1610537973092'>
+                            <name>I see "Job Type"</name>
+                            <title>I see "Job Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537973092' status='passed' stop='1610537976156'>
+                    <name>When I Enter the search criteria below "Teacher", "SW1", "10000", "40000", "Part Time" </name>
+                    <title>When I Enter the search criteria below "Teacher", "SW1", "10000", "40000", "Part Time" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537973092' status='passed' stop='1610537973323'>
+                            <name>I fill field "#keywords", "Teacher"</name>
+                            <title>I fill field "#keywords", "Teacher"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537973323' status='passed' stop='1610537973490'>
+                            <name>I fill field "#location", "SW1"</name>
+                            <title>I fill field "#location", "SW1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537973490' status='passed' stop='1610537974494'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537974495' status='passed' stop='1610537974705'>
+                            <name>I fill field "#salarymin", "10000"</name>
+                            <title>I fill field "#salarymin", "10000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537974705' status='passed' stop='1610537974901'>
+                            <name>I fill field "#salarymax", "40000"</name>
+                            <title>I fill field "#salarymax", "40000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537974901' status='passed' stop='1610537975906'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537975906' status='passed' stop='1610537976019'>
+                            <name>I select option "#tempperm", "Part Time"</name>
+                            <title>I select option "#tempperm", "Part Time"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537976019' status='passed' stop='1610537976155'>
+                            <name>I click "#hp-search-btn"</name>
+                            <title>I click "#hp-search-btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537976156' status='passed' stop='1610537978396'>
+                    <name>Then I see the search results </name>
+                    <title>Then I see the search results </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537976156' status='passed' stop='1610537978396'>
+                            <name>I wait for text "Results Per Page:", 5</name>
+                            <title>I wait for text "Results Per Page:", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610537978468' status='passed' stop='1610537986299'>
+            <name>I perform various types of search using BDD approach {"keywords":"","location":"SW1","salarymin":"20000","salarymax":"30000","jobtype":"Part Time"}</name>
+            <title>I perform various types of search using BDD approach {"keywords":"","location":"SW1","salarymin":"20000","salarymax":"30000","jobtype":"Part Time"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610537979372' status='passed' stop='1610537981744'>
+                    <name>Given I goto CV library url in the Browser </name>
+                    <title>Given I goto CV library url in the Browser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537979372' status='passed' stop='1610537981744'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537981744' status='passed' stop='1610537981890'>
+                    <name>When I Click More Search Option Link </name>
+                    <title>When I Click More Search Option Link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537981744' status='passed' stop='1610537981890'>
+                            <name>I click "//button[@id='toggle-hp-search']"</name>
+                            <title>I click "//button[@id='toggle-hp-search']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537981890' status='passed' stop='1610537981953'>
+                    <name>Then I see additional search options </name>
+                    <title>Then I see additional search options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537981890' status='passed' stop='1610537981941'>
+                            <name>I wait for text "Salary Min", 5</name>
+                            <title>I wait for text "Salary Min", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537981941' status='passed' stop='1610537981947'>
+                            <name>I see "Salary Max"</name>
+                            <title>I see "Salary Max"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537981947' status='passed' stop='1610537981949'>
+                            <name>I see "Salary Type"</name>
+                            <title>I see "Salary Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537981949' status='passed' stop='1610537981953'>
+                            <name>I see "Job Type"</name>
+                            <title>I see "Job Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537981953' status='passed' stop='1610537984879'>
+                    <name>When I Enter the search criteria below "", "SW1", "20000", "30000", "Part Time" </name>
+                    <title>When I Enter the search criteria below "", "SW1", "20000", "30000", "Part Time" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537981953' status='passed' stop='1610537982066'>
+                            <name>I fill field "#keywords", ""</name>
+                            <title>I fill field "#keywords", ""</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537982066' status='passed' stop='1610537982225'>
+                            <name>I fill field "#location", "SW1"</name>
+                            <title>I fill field "#location", "SW1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537982225' status='passed' stop='1610537983227'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537983228' status='passed' stop='1610537983442'>
+                            <name>I fill field "#salarymin", "20000"</name>
+                            <title>I fill field "#salarymin", "20000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537983442' status='passed' stop='1610537983626'>
+                            <name>I fill field "#salarymax", "30000"</name>
+                            <title>I fill field "#salarymax", "30000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537983626' status='passed' stop='1610537984630'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537984630' status='passed' stop='1610537984742'>
+                            <name>I select option "#tempperm", "Part Time"</name>
+                            <title>I select option "#tempperm", "Part Time"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537984742' status='passed' stop='1610537984879'>
+                            <name>I click "#hp-search-btn"</name>
+                            <title>I click "#hp-search-btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537984879' status='passed' stop='1610537986299'>
+                    <name>Then I see the search results </name>
+                    <title>Then I see the search results </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537984879' status='passed' stop='1610537986299'>
+                            <name>I wait for text "Results Per Page:", 5</name>
+                            <title>I wait for text "Results Per Page:", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610537986359' status='passed' stop='1610537993472'>
+            <name>I perform various types of search using BDD approach {"keywords":"Full Stack Developer","location":"","salarymin":"20000","salarymax":"","jobtype":"Contract"}</name>
+            <title>I perform various types of search using BDD approach {"keywords":"Full Stack Developer","location":"","salarymin":"20000","salarymax":"","jobtype":"Contract"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610537987351' status='passed' stop='1610537988752'>
+                    <name>Given I goto CV library url in the Browser </name>
+                    <title>Given I goto CV library url in the Browser </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537987351' status='passed' stop='1610537988752'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537988752' status='passed' stop='1610537988966'>
+                    <name>When I Click More Search Option Link </name>
+                    <title>When I Click More Search Option Link </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537988752' status='passed' stop='1610537988966'>
+                            <name>I click "//button[@id='toggle-hp-search']"</name>
+                            <title>I click "//button[@id='toggle-hp-search']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537988966' status='passed' stop='1610537988992'>
+                    <name>Then I see additional search options </name>
+                    <title>Then I see additional search options </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537988966' status='passed' stop='1610537988982'>
+                            <name>I wait for text "Salary Min", 5</name>
+                            <title>I wait for text "Salary Min", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537988982' status='passed' stop='1610537988987'>
+                            <name>I see "Salary Max"</name>
+                            <title>I see "Salary Max"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537988987' status='passed' stop='1610537988990'>
+                            <name>I see "Salary Type"</name>
+                            <title>I see "Salary Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537988990' status='passed' stop='1610537988992'>
+                            <name>I see "Job Type"</name>
+                            <title>I see "Job Type"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537988992' status='passed' stop='1610537992137'>
+                    <name>When I Enter the search criteria below "Full Stack Developer", "", "20000", "", "Contract" </name>
+                    <title>When I Enter the search criteria below "Full Stack Developer", "", "20000", "", "Contract" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537988992' status='passed' stop='1610537989443'>
+                            <name>I fill field "#keywords", "Full Stack Developer"</name>
+                            <title>I fill field "#keywords", "Full Stack Developer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537989443' status='passed' stop='1610537989560'>
+                            <name>I fill field "#location", ""</name>
+                            <title>I fill field "#location", ""</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537989561' status='passed' stop='1610537990561'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537990561' status='passed' stop='1610537990747'>
+                            <name>I fill field "#salarymin", "20000"</name>
+                            <title>I fill field "#salarymin", "20000"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537990747' status='passed' stop='1610537990865'>
+                            <name>I fill field "#salarymax", ""</name>
+                            <title>I fill field "#salarymax", ""</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537990865' status='passed' stop='1610537991867'>
+                            <name>I wait 1</name>
+                            <title>I wait 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537991868' status='passed' stop='1610537991985'>
+                            <name>I select option "#tempperm", "Contract"</name>
+                            <title>I select option "#tempperm", "Contract"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1610537991985' status='passed' stop='1610537992137'>
+                            <name>I click "#hp-search-btn"</name>
+                            <title>I click "#hp-search-btn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1610537992137' status='passed' stop='1610537993472'>
+                    <name>Then I see the search results </name>
+                    <title>Then I see the search results </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1610537992137' status='passed' stop='1610537993472'>
+                            <name>I wait for text "Results Per Page:", 5</name>
+                            <title>I wait for text "Results Per Page:", 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
